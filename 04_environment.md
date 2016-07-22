@@ -53,8 +53,8 @@ variable and returns a dictionary suitable for Django.
 Rebuild the image and restart
 
 ```bash
-$ docker compose build web
-$ docker compose up --force-recreate web
+$ docker-compose build web
+$ docker-compose up --force-recreate web
 ```
 
 The application should continue to work as before, since we configured
